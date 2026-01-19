@@ -3,7 +3,7 @@ from sqlalchemy.orm import relationship
 from ..database import Base
 
 
-class Category(Base):
+class Product(Base):
     __tablename__ = 'product'
 
 
